@@ -1,0 +1,6915 @@
+{
+  "version": 1,
+  "id": "benchmark_4",
+  "savedAt": "2026-08-14T00:00:00.000Z",
+  "camera": {
+    "x": 0,
+    "y": 0,
+    "scale": 1
+  },
+  "strokes": [
+    {
+      "id": "benchmark_4_stroke_1",
+      "points": [
+        {
+          "x": 40,
+          "y": 40,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 48.19888186313836,
+          "y": 42.32971369529523,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.6676627981168364,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_2",
+      "points": [
+        {
+          "x": 58,
+          "y": 40,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 67.72490786366848,
+          "y": 40.78577928380941,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 1.3553800113395276,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_3",
+      "points": [
+        {
+          "x": 76,
+          "y": 40,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 61.26395685419638,
+          "y": 40.248427838881604,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 2.499030184815412,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_4",
+      "points": [
+        {
+          "x": 94,
+          "y": 40,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 82.73796501735589,
+          "y": 45.236716832604216,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.2722504693717347,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_5",
+      "points": [
+        {
+          "x": 112,
+          "y": 40,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 104.68871327809742,
+          "y": 41.15591564608807,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 3.6684068694404344,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_6",
+      "points": [
+        {
+          "x": 130,
+          "y": 40,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 139.7040465604038,
+          "y": 46.18048795077227,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.776900389878289,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_7",
+      "points": [
+        {
+          "x": 148,
+          "y": 40,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 134.9321482088589,
+          "y": 48.20692976635718,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.488184132726906,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_8",
+      "points": [
+        {
+          "x": 166,
+          "y": 40,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 176.4757888037004,
+          "y": 42.02241594072008,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 2.6118663175990493,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_9",
+      "points": [
+        {
+          "x": 184,
+          "y": 40,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 171.35552804682968,
+          "y": 46.67802103060319,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.1422742519393267,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_10",
+      "points": [
+        {
+          "x": 202,
+          "y": 40,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 195.13989855883224,
+          "y": 49.67043037907491,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.1558542307829143,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_11",
+      "points": [
+        {
+          "x": 220,
+          "y": 40,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 222.49995260935953,
+          "y": 55.705147360584725,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 1.5747823758457746,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_12",
+      "points": [
+        {
+          "x": 238,
+          "y": 40,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 247.65112764153042,
+          "y": 44.06889810774337,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 2.7811614162710407,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_13",
+      "points": [
+        {
+          "x": 256,
+          "y": 40,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 260.7824929935103,
+          "y": 53.207204633948045,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 1.8161783988625226,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_14",
+      "points": [
+        {
+          "x": 274,
+          "y": 40,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 277.97650782071463,
+          "y": 44.744889693379406,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 3.648598345147585,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_15",
+      "points": [
+        {
+          "x": 292,
+          "y": 40,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 304.793761737344,
+          "y": 48.85411315841415,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 2.746968836464679,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_16",
+      "points": [
+        {
+          "x": 310,
+          "y": 40,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 315.1591228650698,
+          "y": 47.8179662472324,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.9399105461640076,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_17",
+      "points": [
+        {
+          "x": 328,
+          "y": 40,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 321.18288804110915,
+          "y": 41.71582360054903,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 2.2988686997673633,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_18",
+      "points": [
+        {
+          "x": 346,
+          "y": 40,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 353.4767617667956,
+          "y": 50.757500851869295,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 2.5277004818263697,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_19",
+      "points": [
+        {
+          "x": 364,
+          "y": 40,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 369.1746598148146,
+          "y": 44.96845367368586,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.093473372071393,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_20",
+      "points": [
+        {
+          "x": 382,
+          "y": 40,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 390.6248990520965,
+          "y": 46.676030445093595,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.08284942435167,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_21",
+      "points": [
+        {
+          "x": 40,
+          "y": 54,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 27.56497732989486,
+          "y": 62.059145272502285,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.518430481785543,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_22",
+      "points": [
+        {
+          "x": 58,
+          "y": 54,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 66.87914267077073,
+          "y": 58.635647347113206,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 2.61943932800075,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_23",
+      "points": [
+        {
+          "x": 76,
+          "y": 54,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 63.492438747388874,
+          "y": 54.47880441238141,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 3.2411117787102963,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_24",
+      "points": [
+        {
+          "x": 94,
+          "y": 54,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 104.19738544237514,
+          "y": 55.468944683513534,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.4771747068681695,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_25",
+      "points": [
+        {
+          "x": 112,
+          "y": 54,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 99.23648996946582,
+          "y": 63.29150334526193,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 2.159785008793647,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_26",
+      "points": [
+        {
+          "x": 130,
+          "y": 54,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 130.28048737893934,
+          "y": 62.827267152412695,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 3.74130450765167,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_27",
+      "points": [
+        {
+          "x": 148,
+          "y": 54,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 152.35733524317317,
+          "y": 60.68034709514435,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.7922857894544224,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_28",
+      "points": [
+        {
+          "x": 166,
+          "y": 54,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 176.0309757744834,
+          "y": 54.39189678030571,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.100043985783133,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_29",
+      "points": [
+        {
+          "x": 184,
+          "y": 54,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 191.48110365055052,
+          "y": 61.711522169211456,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.102189484076153,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_30",
+      "points": [
+        {
+          "x": 202,
+          "y": 54,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 198.31536513432584,
+          "y": 64.92318755896774,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 2.139496581428567,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_31",
+      "points": [
+        {
+          "x": 220,
+          "y": 54,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 210.0219684734435,
+          "y": 56.03390449021382,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.762483076369968,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_32",
+      "points": [
+        {
+          "x": 238,
+          "y": 54,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 234.5544029322118,
+          "y": 69.11158797986275,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 1.0760757918646735,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_33",
+      "points": [
+        {
+          "x": 256,
+          "y": 54,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 254.90004398381896,
+          "y": 62.48106102250541,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.8567370467020052,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_34",
+      "points": [
+        {
+          "x": 274,
+          "y": 54,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 264.41023484414717,
+          "y": 66.55591336724805,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 1.9264270493123743,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_35",
+      "points": [
+        {
+          "x": 292,
+          "y": 54,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 285.5958232219104,
+          "y": 63.72028811029696,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 2.017777246194374,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_36",
+      "points": [
+        {
+          "x": 310,
+          "y": 54,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 302.133440508037,
+          "y": 61.09742687356206,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 1.1148495930514413,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_37",
+      "points": [
+        {
+          "x": 328,
+          "y": 54,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 334.8134552316175,
+          "y": 63.5811613882486,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.0038567734891215,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_38",
+      "points": [
+        {
+          "x": 346,
+          "y": 54,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 353.4359691493931,
+          "y": 61.662917334075146,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.518218347690585,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_39",
+      "points": [
+        {
+          "x": 364,
+          "y": 54,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 358.3995310916428,
+          "y": 56.977312264936025,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.7123278464917857,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_40",
+      "points": [
+        {
+          "x": 382,
+          "y": 54,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 380.45067996787185,
+          "y": 67.29615287529127,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 3.948405795020146,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_41",
+      "points": [
+        {
+          "x": 40,
+          "y": 68,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 30.47443564490185,
+          "y": 75.63865963214893,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 2.6308136795719186,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_42",
+      "points": [
+        {
+          "x": 58,
+          "y": 68,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 66.61018970137182,
+          "y": 76.58456025778628,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.0722038499247757,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_43",
+      "points": [
+        {
+          "x": 76,
+          "y": 68,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 78.50205618824903,
+          "y": 83.20035728341048,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.7258803592356573,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_44",
+      "points": [
+        {
+          "x": 94,
+          "y": 68,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 105.65414518658258,
+          "y": 69.12486799113013,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.7687457389591135,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_45",
+      "points": [
+        {
+          "x": 112,
+          "y": 68,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 118.05357947109124,
+          "y": 70.86082390746878,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 1.769208716873361,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_46",
+      "points": [
+        {
+          "x": 130,
+          "y": 68,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 128.33088859752607,
+          "y": 76.66524222408401,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 3.92442786901361,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_47",
+      "points": [
+        {
+          "x": 148,
+          "y": 68,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 144.13227918149613,
+          "y": 80.08181665291032,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 3.101266206265722,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_48",
+      "points": [
+        {
+          "x": 166,
+          "y": 68,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 157.51023629385665,
+          "y": 70.30807112912746,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 2.6653317063267647,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_49",
+      "points": [
+        {
+          "x": 184,
+          "y": 68,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 175.16518136656669,
+          "y": 76.91823086412441,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.8324787753709777,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_50",
+      "points": [
+        {
+          "x": 202,
+          "y": 68,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 207.55124379321302,
+          "y": 73.00072862835488,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 2.0271456518739335,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_51",
+      "points": [
+        {
+          "x": 220,
+          "y": 68,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 212.01060618674063,
+          "y": 74.67880932510742,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.481902745664563,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_52",
+      "points": [
+        {
+          "x": 238,
+          "y": 68,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 232.92795042452602,
+          "y": 75.33344639566567,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.062586914529695,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_53",
+      "points": [
+        {
+          "x": 256,
+          "y": 68,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 255.03227690346435,
+          "y": 81.27042751857839,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 3.0533966822674024,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_54",
+      "points": [
+        {
+          "x": 274,
+          "y": 68,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 266.89012963203527,
+          "y": 73.07133936635744,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 3.3863233868932174,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_55",
+      "points": [
+        {
+          "x": 292,
+          "y": 68,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 304.9337537044419,
+          "y": 75.21381044466166,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.549293273023631,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_56",
+      "points": [
+        {
+          "x": 310,
+          "y": 68,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 322.97166019339124,
+          "y": 68.34612217581025,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 1.1573955188871816,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_57",
+      "points": [
+        {
+          "x": 328,
+          "y": 68,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 338.78474306062134,
+          "y": 77.36101110734589,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 3.9215712018594076,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_58",
+      "points": [
+        {
+          "x": 346,
+          "y": 68,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 341.8771029048162,
+          "y": 80.01865676111349,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 2.499138196813673,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_59",
+      "points": [
+        {
+          "x": 364,
+          "y": 68,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 352.575582916145,
+          "y": 70.59567427653919,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 1.4605270220107696,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_60",
+      "points": [
+        {
+          "x": 382,
+          "y": 68,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 367.9082625384172,
+          "y": 69.4334763854226,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 1.3566026125002193,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_61",
+      "points": [
+        {
+          "x": 40,
+          "y": 82,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 33.55783316453283,
+          "y": 87.13577477106202,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 3.6209470361054286,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_62",
+      "points": [
+        {
+          "x": 58,
+          "y": 82,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 71.97819337648363,
+          "y": 86.12758999984524,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.7914781441892216,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_63",
+      "points": [
+        {
+          "x": 76,
+          "y": 82,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 73.10765604923371,
+          "y": 93.86961227897999,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 3.285779164239247,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_64",
+      "points": [
+        {
+          "x": 94,
+          "y": 82,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 96.31606350759937,
+          "y": 95.36978698164337,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 1.7145142254220587,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_65",
+      "points": [
+        {
+          "x": 112,
+          "y": 82,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 108.74600086641576,
+          "y": 92.50418944205829,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 1.4673048244945948,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_66",
+      "points": [
+        {
+          "x": 130,
+          "y": 82,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 139.27723509772903,
+          "y": 86.32703768969587,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 3.055442227063571,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_67",
+      "points": [
+        {
+          "x": 148,
+          "y": 82,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 154.19642914856024,
+          "y": 87.4739984001644,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.4458108070413145,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_68",
+      "points": [
+        {
+          "x": 166,
+          "y": 82,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 170.90296003302402,
+          "y": 97.0229875099812,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 1.3703973252257327,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_69",
+      "points": [
+        {
+          "x": 184,
+          "y": 82,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 177.80867465359094,
+          "y": 85.37773438592578,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.345761145312749,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_70",
+      "points": [
+        {
+          "x": 202,
+          "y": 82,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 206.92421269853287,
+          "y": 92.8629734248462,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.8868403823317124,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_71",
+      "points": [
+        {
+          "x": 220,
+          "y": 82,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 211.7455487178145,
+          "y": 83.02247029918684,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 1.1494689961312035,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_72",
+      "points": [
+        {
+          "x": 238,
+          "y": 82,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 250.25600359069924,
+          "y": 89.98877799625929,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 1.9859798175715795,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_73",
+      "points": [
+        {
+          "x": 256,
+          "y": 82,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 243.5671253152912,
+          "y": 90.76556766750207,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 1.1482685120190188,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_74",
+      "points": [
+        {
+          "x": 274,
+          "y": 82,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 276.73218645260664,
+          "y": 95.57142735458967,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 1.1226934842119676,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_75",
+      "points": [
+        {
+          "x": 292,
+          "y": 82,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 304.40273327845676,
+          "y": 85.66609325143646,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.8311867161726547,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_76",
+      "points": [
+        {
+          "x": 310,
+          "y": 82,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 302.2301831635763,
+          "y": 85.66008658891495,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.1829505446792932,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_77",
+      "points": [
+        {
+          "x": 328,
+          "y": 82,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 340.0040691478724,
+          "y": 89.60757809629625,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.211115378004293,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_78",
+      "points": [
+        {
+          "x": 346,
+          "y": 82,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 348.66945398514605,
+          "y": 89.30031229688845,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 3.2787333448135136,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_79",
+      "points": [
+        {
+          "x": 364,
+          "y": 82,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 363.54509117601447,
+          "y": 92.41706023651386,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.5884828871554888,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_80",
+      "points": [
+        {
+          "x": 382,
+          "y": 82,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 381.7987747167445,
+          "y": 88.61600171546861,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.980459287990923,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_81",
+      "points": [
+        {
+          "x": 40,
+          "y": 96,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 42.97008101978819,
+          "y": 103.79818128241149,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 2.752426131570811,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_82",
+      "points": [
+        {
+          "x": 58,
+          "y": 96,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 49.501784103352975,
+          "y": 97.926869251489,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 2.9869027119099405,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_83",
+      "points": [
+        {
+          "x": 76,
+          "y": 96,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 63.52010985864017,
+          "y": 96.0269671299638,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 1.6194623677570983,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_84",
+      "points": [
+        {
+          "x": 94,
+          "y": 96,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 91.92641179044327,
+          "y": 109.52751173179186,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 1.232616763150463,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_85",
+      "points": [
+        {
+          "x": 112,
+          "y": 96,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 99.97302040991329,
+          "y": 101.15702221298257,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.30966110069064,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_86",
+      "points": [
+        {
+          "x": 130,
+          "y": 96,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 122.40228265134114,
+          "y": 103.25191100446584,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 1.4328552723007406,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_87",
+      "points": [
+        {
+          "x": 148,
+          "y": 96,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 147.64890806175387,
+          "y": 105.76089630348785,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 1.6603159538144983,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_88",
+      "points": [
+        {
+          "x": 166,
+          "y": 96,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 172.36071234338735,
+          "y": 96.73673746634506,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 2.0659946275562966,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_89",
+      "points": [
+        {
+          "x": 184,
+          "y": 96,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 185.92326416015578,
+          "y": 106.54343392202706,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 2.177116549382246,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_90",
+      "points": [
+        {
+          "x": 202,
+          "y": 96,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 191.4424838162414,
+          "y": 100.40689287578058,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.7934556509818544,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_91",
+      "points": [
+        {
+          "x": 220,
+          "y": 96,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 219.5507046245742,
+          "y": 103.56987629963976,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 2.422820378891849,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_92",
+      "points": [
+        {
+          "x": 238,
+          "y": 96,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 229.3392317625597,
+          "y": 96.18566893446764,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 3.317125473245309,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_93",
+      "points": [
+        {
+          "x": 256,
+          "y": 96,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 252.9175548637549,
+          "y": 111.65155487480737,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 1.8434246803734975,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_94",
+      "points": [
+        {
+          "x": 274,
+          "y": 96,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 264.6312777308626,
+          "y": 99.24031136404169,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.6742794082207324,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_95",
+      "points": [
+        {
+          "x": 292,
+          "y": 96,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 298.5176975793072,
+          "y": 105.43383674198537,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 2.031838313450999,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_96",
+      "points": [
+        {
+          "x": 310,
+          "y": 96,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 305.6081119530362,
+          "y": 101.77463377571155,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 3.97000283025438,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_97",
+      "points": [
+        {
+          "x": 328,
+          "y": 96,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 322.2442629828262,
+          "y": 106.02553816597229,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.4290536335737105,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_98",
+      "points": [
+        {
+          "x": 346,
+          "y": 96,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 350.30651228368447,
+          "y": 105.04987493444038,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 3.5471130443148113,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_99",
+      "points": [
+        {
+          "x": 364,
+          "y": 96,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 371.7531526197477,
+          "y": 106.21531047026266,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.4628183661175003,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_100",
+      "points": [
+        {
+          "x": 382,
+          "y": 96,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 389.4031367945559,
+          "y": 97.17808896383654,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.593581165790926,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_101",
+      "points": [
+        {
+          "x": 40,
+          "y": 110,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 40.987014415231194,
+          "y": 123.95835365965965,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.123807485244192,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_102",
+      "points": [
+        {
+          "x": 58,
+          "y": 110,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 65.12129887386432,
+          "y": 111.10066745137185,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.1874539945711042,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_103",
+      "points": [
+        {
+          "x": 76,
+          "y": 110,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 83.23415343768094,
+          "y": 122.6344195612486,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 3.9792950835496406,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_104",
+      "points": [
+        {
+          "x": 94,
+          "y": 110,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 86.99400100914526,
+          "y": 115.4126869004118,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.7792758868958978,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_105",
+      "points": [
+        {
+          "x": 112,
+          "y": 110,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 116.86508698867513,
+          "y": 117.58266082846154,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 3.6243262506612406,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_106",
+      "points": [
+        {
+          "x": 130,
+          "y": 110,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 138.24906643840623,
+          "y": 121.14439246121685,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.112010633366185,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_107",
+      "points": [
+        {
+          "x": 148,
+          "y": 110,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 154.62694142933364,
+          "y": 110.9230891895439,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 2.5703889475135107,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_108",
+      "points": [
+        {
+          "x": 166,
+          "y": 110,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 155.9109238903727,
+          "y": 113.14595914346185,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 3.578463334724881,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_109",
+      "points": [
+        {
+          "x": 184,
+          "y": 110,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 185.7859934586662,
+          "y": 117.07621783430153,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 1.5715858811912093,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_110",
+      "points": [
+        {
+          "x": 202,
+          "y": 110,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 210.7892993965174,
+          "y": 122.14230392341979,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 2.0162022726182367,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_111",
+      "points": [
+        {
+          "x": 220,
+          "y": 110,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 231.36844891177802,
+          "y": 113.79602122769556,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.3883063803399693,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_112",
+      "points": [
+        {
+          "x": 238,
+          "y": 110,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 231.17946879721015,
+          "y": 112.55498813555154,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.939980790005061,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_113",
+      "points": [
+        {
+          "x": 256,
+          "y": 110,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 263.3114384697345,
+          "y": 116.97733587170687,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 1.988398267652001,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_114",
+      "points": [
+        {
+          "x": 274,
+          "y": 110,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 276.89696913693933,
+          "y": 123.47301337094953,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 1.2116591609575924,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_115",
+      "points": [
+        {
+          "x": 292,
+          "y": 110,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 289.45924882501447,
+          "y": 121.29446496480003,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 1.185839739205744,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_116",
+      "points": [
+        {
+          "x": 310,
+          "y": 110,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 324.3510362495533,
+          "y": 113.02690095083233,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 3.147626470808784,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_117",
+      "points": [
+        {
+          "x": 328,
+          "y": 110,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 316.70799159730007,
+          "y": 119.66327907992783,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.716911236689638,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_118",
+      "points": [
+        {
+          "x": 346,
+          "y": 110,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 344.7234188737538,
+          "y": 117.16648570465786,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.0637224856912444,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_119",
+      "points": [
+        {
+          "x": 364,
+          "y": 110,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 372.56261895067104,
+          "y": 116.23643799492473,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.7538673215903966,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_120",
+      "points": [
+        {
+          "x": 382,
+          "y": 110,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 367.4446892034705,
+          "y": 113.77408485980376,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 1.2576595317240944,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_121",
+      "points": [
+        {
+          "x": 40,
+          "y": 124,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 30.244230067173667,
+          "y": 128.63417146903248,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 2.856108552742775,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_122",
+      "points": [
+        {
+          "x": 58,
+          "y": 124,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 63.91392923418983,
+          "y": 134.42711359564737,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 3.4289443698779083,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_123",
+      "points": [
+        {
+          "x": 76,
+          "y": 124,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 66.2534433176237,
+          "y": 133.7438214362172,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.358853359557421,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_124",
+      "points": [
+        {
+          "x": 94,
+          "y": 124,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 98.86289430203546,
+          "y": 136.04181478659495,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 1.536300066517736,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_125",
+      "points": [
+        {
+          "x": 112,
+          "y": 124,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 112.12448127957995,
+          "y": 138.58685722401782,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.1993099179117266,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_126",
+      "points": [
+        {
+          "x": 130,
+          "y": 124,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 128.50107302732982,
+          "y": 133.37712490337012,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 2.092587874991025,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_127",
+      "points": [
+        {
+          "x": 148,
+          "y": 124,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 154.70011575402754,
+          "y": 132.89321340554852,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.180348024512722,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_128",
+      "points": [
+        {
+          "x": 166,
+          "y": 124,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 175.88603482972536,
+          "y": 128.84816013958,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 2.8972291052102177,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_129",
+      "points": [
+        {
+          "x": 184,
+          "y": 124,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 197.82824764360558,
+          "y": 131.94081035365645,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.671670972525997,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_130",
+      "points": [
+        {
+          "x": 202,
+          "y": 124,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 205.53161936429578,
+          "y": 135.5825965110997,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.2061270007877907,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_131",
+      "points": [
+        {
+          "x": 220,
+          "y": 124,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 218.36633969401018,
+          "y": 137.41329035276723,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 2.7484874249781686,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_132",
+      "points": [
+        {
+          "x": 238,
+          "y": 124,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 253.12458989277113,
+          "y": 124.34947520878727,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.3390886146433392,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_133",
+      "points": [
+        {
+          "x": 256,
+          "y": 124,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 268.2412516529331,
+          "y": 129.15191058672798,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.7676832929178334,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_134",
+      "points": [
+        {
+          "x": 274,
+          "y": 124,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 266.49562488926955,
+          "y": 127.92228780674478,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.724746683781209,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_135",
+      "points": [
+        {
+          "x": 292,
+          "y": 124,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 299.59341134968736,
+          "y": 127.27586429492312,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.3814936064606282,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_136",
+      "points": [
+        {
+          "x": 310,
+          "y": 124,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 319.42042904412165,
+          "y": 128.65971906894524,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 1.3829815011431885,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_137",
+      "points": [
+        {
+          "x": 328,
+          "y": 124,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 321.61829437925724,
+          "y": 130.7706051349267,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 3.988674394085229,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_138",
+      "points": [
+        {
+          "x": 346,
+          "y": 124,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 337.5805873564576,
+          "y": 127.6491313488076,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.844842797109122,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_139",
+      "points": [
+        {
+          "x": 364,
+          "y": 124,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 349.18555965333064,
+          "y": 125.40754455692661,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.6231745527179853,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_140",
+      "points": [
+        {
+          "x": 382,
+          "y": 124,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 383.07887991826215,
+          "y": 131.0173408092176,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 3.50997160759521,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_141",
+      "points": [
+        {
+          "x": 40,
+          "y": 138,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 34.882131942294215,
+          "y": 142.25849438498486,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.2803077274654777,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_142",
+      "points": [
+        {
+          "x": 58,
+          "y": 138,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 47.18464244807693,
+          "y": 144.12069495114187,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 3.441522153197211,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_143",
+      "points": [
+        {
+          "x": 76,
+          "y": 138,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 75.04714089815373,
+          "y": 148.52130134755137,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.6804241842311862,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_144",
+      "points": [
+        {
+          "x": 94,
+          "y": 138,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 80.79997129142032,
+          "y": 145.62486312669262,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 3.598583713313235,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_145",
+      "points": [
+        {
+          "x": 112,
+          "y": 138,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 102.79996878598985,
+          "y": 147.9370593482256,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.4700826842966683,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_146",
+      "points": [
+        {
+          "x": 130,
+          "y": 138,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 122.52309966325937,
+          "y": 144.0621993153455,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 1.5061025001355686,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_147",
+      "points": [
+        {
+          "x": 148,
+          "y": 138,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 162.03937458940692,
+          "y": 145.47815998631364,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.8607223601687517,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_148",
+      "points": [
+        {
+          "x": 166,
+          "y": 138,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 164.76122471928073,
+          "y": 149.2454509110974,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 1.362303536003992,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_149",
+      "points": [
+        {
+          "x": 184,
+          "y": 138,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 192.34485957849344,
+          "y": 142.19013595007698,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.7048345905972724,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_150",
+      "points": [
+        {
+          "x": 202,
+          "y": 138,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 194.51175526649243,
+          "y": 146.07794948168424,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.5836125257386855,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_151",
+      "points": [
+        {
+          "x": 220,
+          "y": 138,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 223.46654763846274,
+          "y": 147.90064764458873,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.00963487546184,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_152",
+      "points": [
+        {
+          "x": 238,
+          "y": 138,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 240.2848254475794,
+          "y": 151.1323556248407,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.7870777323346303,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_153",
+      "points": [
+        {
+          "x": 256,
+          "y": 138,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 246.36726049065723,
+          "y": 141.4534572831937,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 2.8882347112261306,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_154",
+      "points": [
+        {
+          "x": 274,
+          "y": 138,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 285.25312010752594,
+          "y": 139.03466520281447,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.21029185322353,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_155",
+      "points": [
+        {
+          "x": 292,
+          "y": 138,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 297.29283319644964,
+          "y": 144.6694625521692,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 1.948313464165738,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_156",
+      "points": [
+        {
+          "x": 310,
+          "y": 138,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 311.82336455554963,
+          "y": 144.33195384752293,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 1.568813893610801,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_157",
+      "points": [
+        {
+          "x": 328,
+          "y": 138,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 327.72064057231086,
+          "y": 152.84485829815102,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 3.1182902483544988,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_158",
+      "points": [
+        {
+          "x": 346,
+          "y": 138,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 341.2883136184938,
+          "y": 152.5320035347209,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 2.351091043872547,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_159",
+      "points": [
+        {
+          "x": 364,
+          "y": 138,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 355.4880029320854,
+          "y": 149.6458071490376,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 2.910995797233422,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_160",
+      "points": [
+        {
+          "x": 382,
+          "y": 138,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 380.577263059196,
+          "y": 147.17991461559637,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.550880551233627,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_161",
+      "points": [
+        {
+          "x": 40,
+          "y": 152,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 39.69707038007151,
+          "y": 161.85249416978456,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 2.1248443413350833,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_162",
+      "points": [
+        {
+          "x": 58,
+          "y": 152,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 65.22474095414732,
+          "y": 163.34496351718758,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 3.8371715976011873,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_163",
+      "points": [
+        {
+          "x": 76,
+          "y": 152,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 72.60830677334643,
+          "y": 159.83252299795402,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.9825054823845871,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_164",
+      "points": [
+        {
+          "x": 94,
+          "y": 152,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 92.47203474639238,
+          "y": 160.00850500279236,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 3.161607172377782,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_165",
+      "points": [
+        {
+          "x": 112,
+          "y": 152,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 102.70369759860225,
+          "y": 164.55228511926484,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.7070760679680568,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_166",
+      "points": [
+        {
+          "x": 130,
+          "y": 152,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 134.5590072215834,
+          "y": 158.16211052301662,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 3.8034059500329676,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_167",
+      "points": [
+        {
+          "x": 148,
+          "y": 152,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 147.58917346648502,
+          "y": 164.6469826751794,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 1.535752066070156,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_168",
+      "points": [
+        {
+          "x": 166,
+          "y": 152,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 179.94323929719812,
+          "y": 153.74953376029387,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 1.8517841619559994,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_169",
+      "points": [
+        {
+          "x": 184,
+          "y": 152,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 184.55201897702682,
+          "y": 163.78725977470066,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.1710004422746136,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_170",
+      "points": [
+        {
+          "x": 202,
+          "y": 152,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 207.5209929403285,
+          "y": 155.8481518623237,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 2.125877475162474,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_171",
+      "points": [
+        {
+          "x": 220,
+          "y": 152,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 218.37830279550124,
+          "y": 167.62309974257118,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 2.6692310319443306,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_172",
+      "points": [
+        {
+          "x": 238,
+          "y": 152,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 231.9380388753001,
+          "y": 156.64451460541318,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.53216286388509,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_173",
+      "points": [
+        {
+          "x": 256,
+          "y": 152,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 267.24168117140243,
+          "y": 158.51700218661722,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 3.7669684171599727,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_174",
+      "points": [
+        {
+          "x": 274,
+          "y": 152,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 272.71583199240274,
+          "y": 163.9703306955257,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 1.8593804852243934,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_175",
+      "points": [
+        {
+          "x": 292,
+          "y": 152,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 282.7206998495462,
+          "y": 153.27728944573593,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 1.6445238000351292,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_176",
+      "points": [
+        {
+          "x": 310,
+          "y": 152,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 323.51473294685235,
+          "y": 158.40116142862138,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.0109555567640243,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_177",
+      "points": [
+        {
+          "x": 328,
+          "y": 152,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 337.0174063411416,
+          "y": 163.1685004973549,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.1271668807899502,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_178",
+      "points": [
+        {
+          "x": 346,
+          "y": 152,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 359.17591216826014,
+          "y": 152.81894731896503,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.674920229165563,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_179",
+      "points": [
+        {
+          "x": 364,
+          "y": 152,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 367.4234411079488,
+          "y": 165.2378509540787,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.32379772940739,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_180",
+      "points": [
+        {
+          "x": 382,
+          "y": 152,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 391.42796822590793,
+          "y": 161.0645851510009,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 1.4313354600293877,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_181",
+      "points": [
+        {
+          "x": 40,
+          "y": 166,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 33.10069630224967,
+          "y": 168.11250374983763,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 1.703118662047926,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_182",
+      "points": [
+        {
+          "x": 58,
+          "y": 166,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 45.98644332164709,
+          "y": 172.50768061415394,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.2972128932124964,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_183",
+      "points": [
+        {
+          "x": 76,
+          "y": 166,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 84.87450988185685,
+          "y": 175.03058340737869,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 1.6073061159363262,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_184",
+      "points": [
+        {
+          "x": 94,
+          "y": 166,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 98.69565616584427,
+          "y": 181.01836418749653,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 1.7089367282364836,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_185",
+      "points": [
+        {
+          "x": 112,
+          "y": 166,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 97.45301579146835,
+          "y": 168.23926156581672,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.2031825248159427,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_186",
+      "points": [
+        {
+          "x": 130,
+          "y": 166,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 123.66849545309987,
+          "y": 166.13083821883473,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 3.9421856014389047,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_187",
+      "points": [
+        {
+          "x": 148,
+          "y": 166,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 140.06850377394298,
+          "y": 172.0645030469302,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 1.8708881928750518,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_188",
+      "points": [
+        {
+          "x": 166,
+          "y": 166,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 169.25873591464887,
+          "y": 174.3074163264096,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 2.9693544544208224,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_189",
+      "points": [
+        {
+          "x": 184,
+          "y": 166,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 183.95150130835498,
+          "y": 173.4354601983642,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.0300531713361973,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_190",
+      "points": [
+        {
+          "x": 202,
+          "y": 166,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 199.67900068638238,
+          "y": 174.910802913112,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 2.75447641493624,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_191",
+      "points": [
+        {
+          "x": 220,
+          "y": 166,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 211.792759972182,
+          "y": 178.00258676036609,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.4034691314221055,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_192",
+      "points": [
+        {
+          "x": 238,
+          "y": 166,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 234.030238380388,
+          "y": 171.20261794133992,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 3.9856446685701714,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_193",
+      "points": [
+        {
+          "x": 256,
+          "y": 166,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 264.45002112725064,
+          "y": 169.08821460481386,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 1.7182612406830913,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_194",
+      "points": [
+        {
+          "x": 274,
+          "y": 166,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 283.9694069788322,
+          "y": 170.64539078158936,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 1.244934333079712,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_195",
+      "points": [
+        {
+          "x": 292,
+          "y": 166,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 296.5486451274253,
+          "y": 170.05884637178156,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.8445600391935,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_196",
+      "points": [
+        {
+          "x": 310,
+          "y": 166,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 303.97779706644036,
+          "y": 166.05176224944367,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 3.6158243381920796,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_197",
+      "points": [
+        {
+          "x": 328,
+          "y": 166,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 338.89106670389754,
+          "y": 170.30870360616456,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 1.3716733107277364,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_198",
+      "points": [
+        {
+          "x": 346,
+          "y": 166,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 339.3695071292032,
+          "y": 167.27515548798044,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.72811929339732,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_199",
+      "points": [
+        {
+          "x": 364,
+          "y": 166,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 359.334196744334,
+          "y": 175.86561249313093,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.621757962885722,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_200",
+      "points": [
+        {
+          "x": 382,
+          "y": 166,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 391.5315123963105,
+          "y": 176.1647188784589,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.2403713688814015,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_201",
+      "points": [
+        {
+          "x": 40,
+          "y": 180,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 27.869035156801893,
+          "y": 181.29988226149027,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 1.1009918959115148,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_202",
+      "points": [
+        {
+          "x": 58,
+          "y": 180,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 65.64414005693017,
+          "y": 191.10185494579017,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.7598021679464266,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_203",
+      "points": [
+        {
+          "x": 76,
+          "y": 180,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 78.3363880199819,
+          "y": 186.99165756930847,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.388245885350799,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_204",
+      "points": [
+        {
+          "x": 94,
+          "y": 180,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 103.09579816359205,
+          "y": 187.25046554392281,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.1997246034908398,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_205",
+      "points": [
+        {
+          "x": 112,
+          "y": 180,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 112.00480179235346,
+          "y": 187.00992168939064,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 1.461255448512094,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_206",
+      "points": [
+        {
+          "x": 130,
+          "y": 180,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 114.56534898688915,
+          "y": 183.27461711218444,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 3.5744647701677086,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_207",
+      "points": [
+        {
+          "x": 148,
+          "y": 180,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 146.19422864131346,
+          "y": 191.4544338336157,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.4602927275608044,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_208",
+      "points": [
+        {
+          "x": 166,
+          "y": 180,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 162.7205440615658,
+          "y": 190.35993464936323,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 2.2317838219999766,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_209",
+      "points": [
+        {
+          "x": 184,
+          "y": 180,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 188.9565420673588,
+          "y": 186.59108933502426,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.88933835851246,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_210",
+      "points": [
+        {
+          "x": 202,
+          "y": 180,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 211.64769415597576,
+          "y": 186.1867223076399,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.5227998477692717,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_211",
+      "points": [
+        {
+          "x": 220,
+          "y": 180,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 233.03761708120527,
+          "y": 181.04522549811725,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 3.2547533484768945,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_212",
+      "points": [
+        {
+          "x": 238,
+          "y": 180,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 238.5410977403057,
+          "y": 189.4001179322751,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.909409742781289,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_213",
+      "points": [
+        {
+          "x": 256,
+          "y": 180,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 246.8716501787962,
+          "y": 181.13431525708046,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 1.1414509513744737,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_214",
+      "points": [
+        {
+          "x": 274,
+          "y": 180,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 276.06136272423083,
+          "y": 186.87420131681478,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.509211087485126,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_215",
+      "points": [
+        {
+          "x": 292,
+          "y": 180,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 281.8469836452553,
+          "y": 181.79259689682624,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 3.7265685435213545,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_216",
+      "points": [
+        {
+          "x": 310,
+          "y": 180,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 308.26221353617035,
+          "y": 186.47779329796876,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 2.07792402037371,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_217",
+      "points": [
+        {
+          "x": 328,
+          "y": 180,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 329.37922653494707,
+          "y": 189.8633650156068,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.730639494194332,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_218",
+      "points": [
+        {
+          "x": 346,
+          "y": 180,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 355.3637939527349,
+          "y": 190.45791147267354,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.429313113547236,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_219",
+      "points": [
+        {
+          "x": 364,
+          "y": 180,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 357.75368027577616,
+          "y": 181.36884950097388,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.8062650458436145,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_220",
+      "points": [
+        {
+          "x": 382,
+          "y": 180,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 379.718949273162,
+          "y": 189.1634802028075,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.2926092481456255,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_221",
+      "points": [
+        {
+          "x": 40,
+          "y": 194,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 44.04953770495671,
+          "y": 206.41095811663706,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.364286187189698,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_222",
+      "points": [
+        {
+          "x": 58,
+          "y": 194,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 71.1703904144542,
+          "y": 195.38867619183858,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 3.607431488253044,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_223",
+      "points": [
+        {
+          "x": 76,
+          "y": 194,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 79.26850269042642,
+          "y": 208.31553607062915,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.837455526887778,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_224",
+      "points": [
+        {
+          "x": 94,
+          "y": 194,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 96.02141840545697,
+          "y": 200.9395326754944,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.25620895606843,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_225",
+      "points": [
+        {
+          "x": 112,
+          "y": 194,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 115.19904470558876,
+          "y": 202.48467512160082,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.381609170553649,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_226",
+      "points": [
+        {
+          "x": 130,
+          "y": 194,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 118.83450785683968,
+          "y": 197.5213658523605,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.2341027090405357,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_227",
+      "points": [
+        {
+          "x": 148,
+          "y": 194,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 162.39361021388282,
+          "y": 194.36763596838554,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.0143385948646673,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_228",
+      "points": [
+        {
+          "x": 166,
+          "y": 194,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 163.26983263309657,
+          "y": 201.7216895945992,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.2564276119825495,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_229",
+      "points": [
+        {
+          "x": 184,
+          "y": 194,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 191.458072752678,
+          "y": 203.73292816490238,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.1911625215297477,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_230",
+      "points": [
+        {
+          "x": 202,
+          "y": 194,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 206.26554695211664,
+          "y": 200.3876288132609,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 3.8035742139452076,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_231",
+      "points": [
+        {
+          "x": 220,
+          "y": 194,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 216.57494236874138,
+          "y": 199.23028102282345,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 1.8191987953193482,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_232",
+      "points": [
+        {
+          "x": 238,
+          "y": 194,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 233.626819314098,
+          "y": 207.9389669432511,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 3.603430621466467,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_233",
+      "points": [
+        {
+          "x": 256,
+          "y": 194,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 254.12980949136056,
+          "y": 199.91956894591226,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 3.708336255678054,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_234",
+      "points": [
+        {
+          "x": 274,
+          "y": 194,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 278.48397974960915,
+          "y": 198.53449219849705,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.551304375881167,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_235",
+      "points": [
+        {
+          "x": 292,
+          "y": 194,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 298.1067770878824,
+          "y": 199.2882510200756,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.45990661239715,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_236",
+      "points": [
+        {
+          "x": 310,
+          "y": 194,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 318.5364482593717,
+          "y": 194.2001770072973,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.067344326308776,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_237",
+      "points": [
+        {
+          "x": 328,
+          "y": 194,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 322.69193825004055,
+          "y": 201.7681198951637,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 1.7928563232517,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_238",
+      "points": [
+        {
+          "x": 346,
+          "y": 194,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 342.4328866606144,
+          "y": 209.18449386498173,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 2.8914625067011133,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_239",
+      "points": [
+        {
+          "x": 364,
+          "y": 194,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 364.89391218718544,
+          "y": 204.4165058048078,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.307418466617218,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_240",
+      "points": [
+        {
+          "x": 382,
+          "y": 194,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 374.5671150957414,
+          "y": 194.17102952365556,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 2.315756007869671,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_241",
+      "points": [
+        {
+          "x": 40,
+          "y": 208,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 49.13445652427832,
+          "y": 213.9882032849452,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 1.6862846153523505,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_242",
+      "points": [
+        {
+          "x": 58,
+          "y": 208,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 64.45945025873012,
+          "y": 217.34198312058973,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 2.8544288556683877,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_243",
+      "points": [
+        {
+          "x": 76,
+          "y": 208,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 70.82438949958708,
+          "y": 219.18919648670652,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 3.3332767161385335,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_244",
+      "points": [
+        {
+          "x": 94,
+          "y": 208,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 92.84040537000526,
+          "y": 217.7084268695048,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 2.3512138834575222,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_245",
+      "points": [
+        {
+          "x": 112,
+          "y": 208,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 124.06507186812156,
+          "y": 218.49374380858052,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.4495189589097905,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_246",
+      "points": [
+        {
+          "x": 130,
+          "y": 208,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 116.53995646184127,
+          "y": 209.1498882086511,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.524294609326007,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_247",
+      "points": [
+        {
+          "x": 148,
+          "y": 208,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 145.331568664423,
+          "y": 214.07954280233258,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 1.5471096566289453,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_248",
+      "points": [
+        {
+          "x": 166,
+          "y": 208,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 157.89001378952182,
+          "y": 214.97570831161553,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 1.9487271082933824,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_249",
+      "points": [
+        {
+          "x": 184,
+          "y": 208,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 174.20182423321924,
+          "y": 214.31928317406943,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 1.4002931179479448,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_250",
+      "points": [
+        {
+          "x": 202,
+          "y": 208,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 191.2970364394073,
+          "y": 211.82921930768484,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.476361891365694,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_251",
+      "points": [
+        {
+          "x": 220,
+          "y": 208,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 226.43082733356135,
+          "y": 222.59419653142652,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.434131522531186,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_252",
+      "points": [
+        {
+          "x": 238,
+          "y": 208,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 242.66291534619106,
+          "y": 214.0022340926276,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 2.0932657753800195,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_253",
+      "points": [
+        {
+          "x": 256,
+          "y": 208,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 267.63960495523344,
+          "y": 212.30000302487193,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.550676795549383,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_254",
+      "points": [
+        {
+          "x": 274,
+          "y": 208,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 274.1215476402957,
+          "y": 217.3349246678428,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.2146437631954075,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_255",
+      "points": [
+        {
+          "x": 292,
+          "y": 208,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 299.8188508165715,
+          "y": 209.95223643216914,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.392642484137938,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_256",
+      "points": [
+        {
+          "x": 310,
+          "y": 208,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 312.71930613601995,
+          "y": 223.55809668543074,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 1.4172609146724597,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_257",
+      "points": [
+        {
+          "x": 328,
+          "y": 208,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 317.02501940907564,
+          "y": 219.32924431273378,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 1.0445756302318945,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_258",
+      "points": [
+        {
+          "x": 346,
+          "y": 208,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 340.2963228151948,
+          "y": 219.15693440575757,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 2.6093642245068596,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_259",
+      "points": [
+        {
+          "x": 364,
+          "y": 208,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 359.6180831194196,
+          "y": 218.78866620552242,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.171528649556341,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_260",
+      "points": [
+        {
+          "x": 382,
+          "y": 208,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 374.372075559498,
+          "y": 219.8694891909593,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 1.6381044943440017,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_261",
+      "points": [
+        {
+          "x": 40,
+          "y": 222,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 47.28697144379416,
+          "y": 225.23147723313147,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.595231200706966,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_262",
+      "points": [
+        {
+          "x": 58,
+          "y": 222,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 45.7158231380178,
+          "y": 223.72845698441546,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.3344582110490786,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_263",
+      "points": [
+        {
+          "x": 76,
+          "y": 222,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 66.26078924573034,
+          "y": 228.79040730323732,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 1.307762064577025,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_264",
+      "points": [
+        {
+          "x": 94,
+          "y": 222,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 84.79894152446099,
+          "y": 227.11811289923548,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.995649419956759,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_265",
+      "points": [
+        {
+          "x": 112,
+          "y": 222,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 104.41250818551323,
+          "y": 227.75972394293632,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.9227210201608766,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_266",
+      "points": [
+        {
+          "x": 130,
+          "y": 222,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 142.12792002499032,
+          "y": 224.4714735282817,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.3050715979898984,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_267",
+      "points": [
+        {
+          "x": 148,
+          "y": 222,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 144.66615599481378,
+          "y": 227.02439686104248,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.563900713940128,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_268",
+      "points": [
+        {
+          "x": 166,
+          "y": 222,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 166.96192272719645,
+          "y": 229.75080939688488,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.689709532933708,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_269",
+      "points": [
+        {
+          "x": 184,
+          "y": 222,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 178.92197304142255,
+          "y": 231.63679734669438,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 3.1914585410131746,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_270",
+      "points": [
+        {
+          "x": 202,
+          "y": 222,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 188.55208784843506,
+          "y": 222.29352956588164,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 3.11506119559404,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_271",
+      "points": [
+        {
+          "x": 220,
+          "y": 222,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 211.39942621510724,
+          "y": 225.11294811719233,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 3.365588517013376,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_272",
+      "points": [
+        {
+          "x": 238,
+          "y": 222,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 246.5222472453205,
+          "y": 225.22458551243113,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.317559614618672,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_273",
+      "points": [
+        {
+          "x": 256,
+          "y": 222,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 259.26406756868636,
+          "y": 229.39579643634087,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.4476931533887267,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_274",
+      "points": [
+        {
+          "x": 274,
+          "y": 222,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 275.9473682114359,
+          "y": 231.65013978213653,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.474494753283098,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_275",
+      "points": [
+        {
+          "x": 292,
+          "y": 222,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 282.67327457668785,
+          "y": 224.36865750600649,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 2.239055332550559,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_276",
+      "points": [
+        {
+          "x": 310,
+          "y": 222,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 301.95329306491936,
+          "y": 232.98528994926374,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.3114353826528964,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_277",
+      "points": [
+        {
+          "x": 328,
+          "y": 222,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 324.91958153976714,
+          "y": 229.70004743938793,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 1.0570101835897683,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_278",
+      "points": [
+        {
+          "x": 346,
+          "y": 222,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 360.178368337652,
+          "y": 225.53913621062293,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 3.647150958107587,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_279",
+      "points": [
+        {
+          "x": 364,
+          "y": 222,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 364.9941439720631,
+          "y": 236.81909799984746,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 3.248616957163582,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_280",
+      "points": [
+        {
+          "x": 382,
+          "y": 222,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 373.0323211811771,
+          "y": 230.2123506169484,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.3760334922410626,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_281",
+      "points": [
+        {
+          "x": 40,
+          "y": 236,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 42.374089395311515,
+          "y": 251.33850088660125,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.1418308974573925,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_282",
+      "points": [
+        {
+          "x": 58,
+          "y": 236,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 43.44637439817647,
+          "y": 240.6413325585898,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.8880194332189904,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_283",
+      "points": [
+        {
+          "x": 76,
+          "y": 236,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 70.920950872202,
+          "y": 240.59404617255913,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 1.434175123096019,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_284",
+      "points": [
+        {
+          "x": 94,
+          "y": 236,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 83.4551067908179,
+          "y": 243.34242457166494,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 1.9260115360203227,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_285",
+      "points": [
+        {
+          "x": 112,
+          "y": 236,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 110.9293870152713,
+          "y": 242.10632004848165,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 2.0189124967481273,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_286",
+      "points": [
+        {
+          "x": 130,
+          "y": 236,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 129.77998126967702,
+          "y": 245.43563087589908,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 1.8808007405327636,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_287",
+      "points": [
+        {
+          "x": 148,
+          "y": 236,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 141.59137685917133,
+          "y": 240.56509656473187,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 1.2487175022830994,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_288",
+      "points": [
+        {
+          "x": 166,
+          "y": 236,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 163.8916974049731,
+          "y": 242.3547099845391,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.5234880446278227,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_289",
+      "points": [
+        {
+          "x": 184,
+          "y": 236,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 179.21222779245898,
+          "y": 250.02214286989653,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 3.6368481210984402,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_290",
+      "points": [
+        {
+          "x": 202,
+          "y": 236,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 204.56326847362965,
+          "y": 246.09964437165112,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 1.17540637920038,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_291",
+      "points": [
+        {
+          "x": 220,
+          "y": 236,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 215.86653078093502,
+          "y": 240.40168981276457,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 3.995817703426773,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_292",
+      "points": [
+        {
+          "x": 238,
+          "y": 236,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 237.699123532838,
+          "y": 249.22937679087357,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.3155424851727537,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_293",
+      "points": [
+        {
+          "x": 256,
+          "y": 236,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 254.30206178527317,
+          "y": 245.3917953741113,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.0135668464967904,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_294",
+      "points": [
+        {
+          "x": 274,
+          "y": 236,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 277.69622264042226,
+          "y": 248.33603292820703,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.625458786176857,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_295",
+      "points": [
+        {
+          "x": 292,
+          "y": 236,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 301.45667124488455,
+          "y": 241.5771903832853,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#e3b341",
+      "width": 1.267135270467758,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_296",
+      "points": [
+        {
+          "x": 310,
+          "y": 236,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 305.3352627113842,
+          "y": 240.00361570241137,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.471715263899349,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_297",
+      "points": [
+        {
+          "x": 328,
+          "y": 236,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 320.18252023789705,
+          "y": 236.7928797525514,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#58a6ff",
+      "width": 1.6738336893436112,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_298",
+      "points": [
+        {
+          "x": 346,
+          "y": 236,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 339.4400023827792,
+          "y": 241.29816319113618,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 2.825791334692806,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_299",
+      "points": [
+        {
+          "x": 364,
+          "y": 236,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 365.7870295148596,
+          "y": 245.25870520880068,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#f5f5f5",
+      "width": 1.3799156887410011,
+      "opacity": 1,
+      "tool": "pen"
+    },
+    {
+      "id": "benchmark_4_stroke_300",
+      "points": [
+        {
+          "x": 382,
+          "y": 236,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        },
+        {
+          "x": 373.9123274770104,
+          "y": 239.71364317704547,
+          "pressure": 1,
+          "tiltX": 0,
+          "tiltY": 0
+        }
+      ],
+      "color": "#3fb950",
+      "width": 1.6215077225634613,
+      "opacity": 1,
+      "tool": "pen"
+    }
+  ],
+  "confirmedDrafts": [],
+  "textBoxes": [],
+  "pastedImages": []
+}

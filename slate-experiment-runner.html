@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Slate · Optimization Experiment</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'SF Mono', 'Fira Code', monospace;
+  background: #0d1117; color: #e6edf3;
+  min-height: 100vh; padding: 32px 24px;
+}
+h1 { font-size: 13px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #58a6ff; margin-bottom: 4px; }
+.subtitle { font-size: 11px; color: #6e7681; margin-bottom: 28px; letter-spacing: 0.04em; }
+.card { background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 20px; margin-bottom: 16px; }
+.card-title { font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #8b949e; margin-bottom: 14px; }
+label { display: block; font-size: 11px; color: #8b949e; margin-bottom: 4px; letter-spacing: 0.04em; }
+input[type="text"], input[type="password"] {
+  width: 100%; background: #0d1117; border: 1px solid #30363d; border-radius: 4px;
+  color: #e6edf3; font-family: inherit; font-size: 12px; padding: 8px 10px; margin-bottom: 12px; outline: none; transition: border-color 0.15s;
+}
+input[type="text"]:focus, input[type="password"]:focus { border-color: #58a6ff; }
+.row { display: flex; gap: 12px; align-items: flex-start; }
+.row > * { flex: 1; }
+
+/* 4-arm grid */
+.arms-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 4px; }
+.arm-box { background: #0d1117; border: 1px solid #30363d; border-radius: 4px; padding: 10px; font-size: 11px; }
+.arm-box.baseline  { border-color: #30363d; }
+.arm-box.opt1      { border-color: #3fb95055; }
+.arm-box.opt2      { border-color: #e3b34155; }
+.arm-box.combined  { border-color: #58a6ff55; }
+.arm-label { font-weight: 600; margin-bottom: 4px; }
+.arm-box.baseline  .arm-label { color: #8b949e; }
+.arm-box.opt1      .arm-label { color: #3fb950; }
+.arm-box.opt2      .arm-label { color: #e3b341; }
+.arm-box.combined  .arm-label { color: #58a6ff; }
+.arm-val { color: #6e7681; font-size: 10px; line-height: 1.6; }
+.arm-tag { display: inline-block; font-size: 9px; padding: 1px 5px; border-radius: 8px; margin-top: 4px; font-weight: 600; }
+.tag-base { background: #21262d; color: #8b949e; }
+.tag-opt1 { background: #1a3d22; color: #3fb950; }
+.tag-opt2 { background: #3d2e00; color: #e3b341; }
+.tag-both { background: #1f3d5c; color: #58a6ff; }
+
+.bench-list { display: flex; flex-direction: column; gap: 6px; }
+.bench-row { display: flex; align-items: center; gap: 10px; background: #0d1117; border: 1px solid #30363d; border-radius: 4px; padding: 8px 10px; font-size: 11px; }
+.bench-id { color: #58a6ff; font-weight: 600; min-width: 100px; }
+.bench-desc { color: #8b949e; flex: 1; }
+.bench-badge { font-size: 10px; padding: 2px 6px; border-radius: 10px; background: #1f2d3d; color: #58a6ff; border: 1px solid #2c4766; white-space: nowrap; }
+
+.btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: #21262d; border: 1px solid #30363d; border-radius: 4px;
+  color: #e6edf3; font-family: inherit; font-size: 11px; font-weight: 600;
+  letter-spacing: 0.04em; padding: 8px 16px; cursor: pointer;
+  transition: background 0.15s, border-color 0.15s; text-transform: uppercase;
+}
+.btn:hover:not(:disabled) { background: #30363d; border-color: #8b949e; }
+.btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.btn-primary { background: #238636; border-color: #2ea043; color: #fff; }
+.btn-primary:hover:not(:disabled) { background: #2ea043; }
+.btn-blue { background: #1f3d5c; border-color: #58a6ff; color: #58a6ff; }
+.btn-blue:hover:not(:disabled) { background: #2c4766; }
+.btn-danger { background: #3d1a1a; border-color: #f85149; color: #f85149; }
+.btn-danger:hover:not(:disabled) { background: #5a1d1d; }
+.btn-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px; }
+
+.progress-bar-wrap { height: 4px; background: #21262d; border-radius: 2px; margin: 14px 0 4px; overflow: hidden; }
+.progress-bar { height: 100%; background: #58a6ff; border-radius: 2px; transition: width 0.3s ease; }
+.progress-label { font-size: 11px; color: #8b949e; margin-bottom: 10px; }
+.log { background: #0d1117; border: 1px solid #30363d; border-radius: 4px; padding: 12px; height: 200px; overflow-y: auto; font-size: 11px; line-height: 1.7; color: #8b949e; }
+.log-ok   { color: #3fb950; }
+.log-err  { color: #f85149; }
+.log-info { color: #58a6ff; }
+.log-warn { color: #e3b341; }
+
+/* Summary: 4 columns */
+.summary-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 4px; }
+.summary-card { background: #0d1117; border: 1px solid #30363d; border-radius: 4px; padding: 14px; }
+.summary-card.s-baseline { border-top: 2px solid #30363d; }
+.summary-card.s-opt1     { border-top: 2px solid #3fb950; }
+.summary-card.s-opt2     { border-top: 2px solid #e3b341; }
+.summary-card.s-combined { border-top: 2px solid #58a6ff; }
+.summary-arm { font-size: 10px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 10px; }
+.s-baseline .summary-arm { color: #8b949e; }
+.s-opt1     .summary-arm { color: #3fb950; }
+.s-opt2     .summary-arm { color: #e3b341; }
+.s-combined .summary-arm { color: #58a6ff; }
+.metric-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px; }
+.metric-key { font-size: 10px; color: #6e7681; }
+.metric-val { font-size: 11px; color: #e6edf3; font-weight: 600; }
+.metric-val.good { color: #3fb950; }
+.metric-val.warn { color: #e3b341; }
+.metric-val.bad  { color: #f85149; }
+.delta { font-size: 9px; margin-left: 4px; }
+.delta-good { color: #3fb950; }
+.delta-bad  { color: #f85149; }
+.delta-neu  { color: #8b949e; }
+
+.table-wrap { overflow-x: auto; margin-top: 4px; }
+table { width: 100%; border-collapse: collapse; font-size: 11px; }
+thead th { background: #161b22; color: #8b949e; font-size: 10px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 8px 10px; text-align: left; border-bottom: 1px solid #30363d; white-space: nowrap; }
+tbody td { padding: 7px 10px; border-bottom: 1px solid #21262d; color: #e6edf3; white-space: nowrap; }
+tbody tr:hover td { background: #161b22; }
+.cell-ok   { color: #3fb950; }
+.cell-err  { color: #f85149; }
+.cell-warn { color: #e3b341; }
+.cell-mono { font-family: inherit; color: #8b949e; font-size: 10px; }
+.cell-base { color: #8b949e; font-weight: 600; }
+.cell-opt1 { color: #3fb950; font-weight: 600; }
+.cell-opt2 { color: #e3b341; font-weight: 600; }
+.cell-comb { color: #58a6ff; font-weight: 600; }
+
+.empty-state { padding: 32px; text-align: center; color: #6e7681; font-size: 11px; }
+.sep { height: 1px; background: #21262d; margin: 16px 0; }
+.status-chip { display: inline-block; font-size: 10px; padding: 2px 7px; border-radius: 10px; font-weight: 600; }
+.chip-running { background: #1f3d5c; color: #58a6ff; }
+.chip-retry   { background: #3d2e00; color: #e3b341; }
+.chip-done    { background: #1a3d22; color: #3fb950; }
+.chip-idle    { background: #21262d; color: #8b949e; }
+.phase-banner { font-size: 11px; padding: 8px 12px; border-radius: 4px; margin-bottom: 10px; border: 1px solid; }
+.phase-main  { background: #1f3d5c22; border-color: #58a6ff44; color: #58a6ff; }
+.phase-retry { background: #3d2e0022; border-color: #e3b34144; color: #e3b341; }
+.hint { font-size: 10px; color: #6e7681; margin-top: -8px; margin-bottom: 12px; }
+
+/* opt legend */
+.opt-legend { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 14px; }
+.opt-pill { font-size: 10px; padding: 3px 10px; border-radius: 10px; font-weight: 600; border: 1px solid; }
+.pill-base { background: #21262d; color: #8b949e; border-color: #30363d; }
+.pill-opt1 { background: #1a3d22; color: #3fb950; border-color: #2ea04355; }
+.pill-opt2 { background: #3d2e00; color: #e3b341; border-color: #e3b34155; }
+.pill-both { background: #1f3d5c; color: #58a6ff; border-color: #58a6ff55; }
+</style>
+</head>
+<body>
+
+<canvas id="offscreen-canvas" style="display:none"></canvas>
+
+<h1>⬡ Slate · Optimization Experiment</h1>
+<p class="subtitle">20 cells · 4 arms · same 5 benchmarks × 1 rep · baseline vs opt1 vs opt2 vs opt1+opt2</p>
+
+<!-- Opt legend -->
+<div class="card">
+  <div class="card-title">What's being tested</div>
+  <div class="opt-legend">
+    <span class="opt-pill pill-base">Baseline — 1024px · quality 0.88</span>
+    <span class="opt-pill pill-opt1">+ Opt 1 — max resolution 1536px (tokens same, more detail)</span>
+    <span class="opt-pill pill-opt2">+ Opt 2 — WebP quality 0.88 → 0.75 (smaller bytes)</span>
+    <span class="opt-pill pill-both">Opt 1 + Opt 2 — 1536px · quality 0.75</span>
+  </div>
+  <div style="font-size:10px;color:#6e7681;line-height:1.8">
+    <strong style="color:#8b949e">Why Opt 1?</strong> &nbsp;Your 45-run data showed tokens are flat (373–415) across all resolutions — Gemini charges the same regardless. So sending 1536px gives the model more detail at zero extra token cost.<br>
+    <strong style="color:#8b949e">Why Opt 2?</strong> &nbsp;benchmark_4 (dense strokes) hit 108 KB at 1536px. Lower quality reduces upload bytes by ~30–40% with no token impact. We measure if that meaningfully cuts E2E latency.
+  </div>
+  <div class="sep"></div>
+  <div class="arms-grid">
+    <div class="arm-box baseline">
+      <div class="arm-label">arm_base</div>
+      <div class="arm-val">maxRasterPx: 1024<br>quality: 0.88<br>format: webp</div>
+      <span class="arm-tag tag-base">BASELINE</span>
+    </div>
+    <div class="arm-box opt1">
+      <div class="arm-label">arm_opt1</div>
+      <div class="arm-val">maxRasterPx: <strong style="color:#3fb950">1536</strong><br>quality: 0.88<br>format: webp</div>
+      <span class="arm-tag tag-opt1">+ OPT 1</span>
+    </div>
+    <div class="arm-box opt2">
+      <div class="arm-label">arm_opt2</div>
+      <div class="arm-val">maxRasterPx: 1024<br>quality: <strong style="color:#e3b341">0.75</strong><br>format: webp</div>
+      <span class="arm-tag tag-opt2">+ OPT 2</span>
+    </div>
+    <div class="arm-box combined">
+      <div class="arm-label">arm_both</div>
+      <div class="arm-val">maxRasterPx: <strong style="color:#58a6ff">1536</strong><br>quality: <strong style="color:#58a6ff">0.75</strong><br>format: webp</div>
+      <span class="arm-tag tag-both">OPT 1 + 2</span>
+    </div>
+  </div>
+  <div class="sep"></div>
+  <div class="bench-list">
+    <div class="bench-row"><span class="bench-id">benchmark_1</span><span class="bench-desc">Handwritten multi-line equation (∫x²dx)</span><span class="bench-badge">~16 strokes</span></div>
+    <div class="bench-row"><span class="bench-id">benchmark_2</span><span class="bench-desc">Boxes-and-arrows system sketch</span><span class="bench-badge">~22 strokes</span></div>
+    <div class="bench-row"><span class="bench-id">benchmark_3</span><span class="bench-desc">Handwritten natural-language question</span><span class="bench-badge">~18 strokes</span></div>
+    <div class="bench-row"><span class="bench-id">benchmark_4</span><span class="bench-desc">Dense canvas (mixed content)</span><span class="bench-badge">300 strokes</span></div>
+    <div class="bench-row"><span class="bench-id">benchmark_5</span><span class="bench-desc">Ambiguous / partial handwriting</span><span class="bench-badge">~11 strokes</span></div>
+  </div>
+  <div style="margin-top:14px;font-size:11px;color:#6e7681">
+    Total: <strong style="color:#e6edf3">5 benchmarks × 4 arms × 1 rep = 20 requests</strong>
+  </div>
+</div>
+
+<!-- Config -->
+<div class="card">
+  <div class="card-title">Configuration</div>
+  <div class="row">
+    <div>
+      <label>OpenRouter API Key</label>
+      <input type="password" id="apiKey" placeholder="sk-or-v1-..." />
+    </div>
+    <div>
+      <label>Model</label>
+      <input type="text" id="model" value="google/gemma-3-27b-it:free" />
+    </div>
+  </div>
+  <div class="row">
+    <div>
+      <label>Inter-request delay (ms)</label>
+      <input type="text" id="interRequestDelay" value="3000" style="max-width:120px" />
+      <p class="hint">Pause between cells. 3000ms recommended on free tier.</p>
+    </div>
+    <div>
+      <label>Retry delay (ms)</label>
+      <input type="text" id="retryDelay" value="15000" style="max-width:120px" />
+      <p class="hint">Extra wait added before retrying failed cells.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Run -->
+<div class="card">
+  <div class="card-title">Run</div>
+  <div id="status-line" style="font-size:11px;color:#6e7681;margin-bottom:10px">Status: <span class="status-chip chip-idle">Idle</span></div>
+  <div id="phase-banner" style="display:none" class="phase-banner phase-main"></div>
+  <div class="progress-bar-wrap" id="progress-wrap" style="display:none">
+    <div class="progress-bar" id="progress-bar" style="width:0%"></div>
+  </div>
+  <div class="progress-label" id="progress-label"></div>
+  <div class="log" id="log"><span style="color:#6e7681">Waiting to start…</span></div>
+  <div class="btn-row">
+    <button class="btn btn-primary" id="btn-run" onclick="startRun()">▶ Run 20 Cells</button>
+    <button class="btn btn-danger" id="btn-cancel" onclick="cancelRun()" disabled>■ Cancel</button>
+    <button class="btn" onclick="clearResults()">⟳ Clear</button>
+  </div>
+</div>
+
+<!-- Summary -->
+<div class="card">
+  <div class="card-title">Summary by Arm</div>
+  <div id="summary-body"><div class="empty-state">Run the experiment to see results.</div></div>
+</div>
+
+<!-- Table -->
+<div class="card">
+  <div class="card-title">All 20 Runs</div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>#</th><th>Benchmark</th><th>Arm</th>
+          <th>Status</th><th>Retried?</th>
+          <th>E2E (ms)</th><th>TTFB (ms)</th>
+          <th>Input Tok</th><th>Output Tok</th><th>Total Tok</th>
+          <th>Cost USD</th><th>Img Bytes</th><th>Raster W</th><th>Raster H</th>
+          <th>maxRasterPx</th><th>Quality</th><th>Strokes</th><th>Error</th>
+        </tr>
+      </thead>
+      <tbody id="results-tbody">
+        <tr><td colspan="18" style="text-align:center;color:#6e7681;padding:24px">No runs yet.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="btn-row">
+    <button class="btn btn-blue" onclick="exportCSV()">↓ Export CSV</button>
+  </div>
+</div>
+
+<script>
+// ─── Stroke generators (same as original) ────────────────────────────────────
+
+function pts(coords) { return coords.map(([x,y]) => ({x,y})); }
+
+function makeMathStrokes() {
+  return [
+    { points: pts([[80,60],[78,80],[75,100],[74,120],[76,140],[80,155],[83,165]]), color:'#f5f5f5', width:3 },
+    { points: pts([[100,100],[112,115]]), color:'#f5f5f5', width:3 },
+    { points: pts([[112,100],[100,115]]), color:'#f5f5f5', width:3 },
+    { points: pts([[115,90],[120,85],[125,90],[115,100],[125,100]]), color:'#f5f5f5', width:2 },
+    { points: pts([[135,90],[135,120]]), color:'#f5f5f5', width:3 },
+    { points: pts([[135,105],[140,100],[145,105],[145,120],[135,120]]), color:'#f5f5f5', width:3 },
+    { points: pts([[165,100],[195,100]]), color:'#f5f5f5', width:3 },
+    { points: pts([[165,112],[195,112]]), color:'#f5f5f5', width:3 },
+    { points: pts([[210,100],[222,115]]), color:'#f5f5f5', width:3 },
+    { points: pts([[222,100],[210,115]]), color:'#f5f5f5', width:3 },
+    { points: pts([[224,88],[230,83],[234,88],[228,95],[234,100]]), color:'#f5f5f5', width:2 },
+    { points: pts([[205,125],[245,125]]), color:'#f5f5f5', width:2 },
+    { points: pts([[218,140],[228,135],[233,145],[225,150],[233,158],[222,163]]), color:'#f5f5f5', width:3 },
+    { points: pts([[260,115],[280,115]]), color:'#f5f5f5', width:3 },
+    { points: pts([[270,105],[270,125]]), color:'#f5f5f5', width:3 },
+    { points: pts([[300,108],[293,103],[285,110],[285,120],[293,127],[301,122]]), color:'#f5f5f5', width:3 },
+  ];
+}
+
+function makeBoxArrowStrokes() {
+  return [
+    { points: pts([[60,60],[160,60]]), color:'#58a6ff', width:3 },
+    { points: pts([[160,60],[160,110]]), color:'#58a6ff', width:3 },
+    { points: pts([[160,110],[60,110]]), color:'#58a6ff', width:3 },
+    { points: pts([[60,110],[60,60]]), color:'#58a6ff', width:3 },
+    { points: pts([[90,82],[90,92]]), color:'#f5f5f5', width:2 },
+    { points: pts([[90,82],[100,82],[100,87],[90,87]]), color:'#f5f5f5', width:2 },
+    { points: pts([[160,85],[230,85]]), color:'#3fb950', width:3 },
+    { points: pts([[220,78],[230,85],[220,92]]), color:'#3fb950', width:3 },
+    { points: pts([[230,60],[330,60]]), color:'#58a6ff', width:3 },
+    { points: pts([[330,60],[330,110]]), color:'#58a6ff', width:3 },
+    { points: pts([[330,110],[230,110]]), color:'#58a6ff', width:3 },
+    { points: pts([[230,110],[230,60]]), color:'#58a6ff', width:3 },
+    { points: pts([[280,110],[280,160]]), color:'#3fb950', width:3 },
+    { points: pts([[273,150],[280,160],[287,150]]), color:'#3fb950', width:3 },
+    { points: pts([[230,160],[330,160]]), color:'#58a6ff', width:3 },
+    { points: pts([[330,160],[330,210]]), color:'#58a6ff', width:3 },
+    { points: pts([[330,210],[230,210]]), color:'#58a6ff', width:3 },
+    { points: pts([[230,210],[230,160]]), color:'#58a6ff', width:3 },
+    { points: pts([[255,177],[255,197],[262,197],[268,192],[268,183],[262,177],[255,177]]), color:'#f5f5f5', width:2 },
+    { points: pts([[272,177],[272,197],[279,197],[285,192],[285,183],[279,177],[272,177]]), color:'#f5f5f5', width:2 },
+    { points: pts([[252,182],[247,177],[242,182],[242,192],[247,197],[252,192]]), color:'#f5f5f5', width:2 },
+    { points: pts([[257,177],[257,197]]), color:'#f5f5f5', width:2 },
+  ];
+}
+
+function makeTextStrokes() {
+  return [
+    { points: pts([[60,70],[68,90],[75,70],[82,90],[90,70]]), color:'#f5f5f5', width:3 },
+    { points: pts([[100,70],[100,90]]), color:'#f5f5f5', width:3 },
+    { points: pts([[115,65],[125,65]]), color:'#f5f5f5', width:2 },
+    { points: pts([[120,65],[120,90]]), color:'#f5f5f5', width:3 },
+    { points: pts([[60,110],[60,130]]), color:'#f5f5f5', width:3 },
+    { points: pts([[55,110],[65,110]]), color:'#f5f5f5', width:2 },
+    { points: pts([[75,110],[75,130]]), color:'#f5f5f5', width:3 },
+    { points: pts([[75,118],[85,118]]), color:'#f5f5f5', width:2 },
+    { points: pts([[100,108],[95,112],[95,126],[100,130],[106,126],[106,112],[100,108]]), color:'#f5f5f5', width:3 },
+    { points: pts([[115,110],[115,130]]), color:'#f5f5f5', width:3 },
+    { points: pts([[60,150],[68,144],[76,150],[68,156]]), color:'#f5f5f5', width:3 },
+    { points: pts([[90,144],[100,144],[105,150],[100,156],[90,156],[88,162],[84,164]]), color:'#f5f5f5', width:3 },
+    { points: pts([[115,144],[125,144],[130,150],[125,156],[115,156]]), color:'#f5f5f5', width:3 },
+    { points: pts([[140,144],[140,156]]), color:'#f5f5f5', width:3 },
+    { points: pts([[150,152],[150,153]]), color:'#f5f5f5', width:4 },
+    { points: pts([[148,144],[152,144],[152,150],[150,153]]), color:'#f5f5f5', width:3 },
+    { points: pts([[60,170],[155,170]]), color:'#58a6ff', width:1 },
+    { points: pts([[150,163],[150,165]]), color:'#f5f5f5', width:4 },
+  ];
+}
+
+function makeDenseStrokes() {
+  const strokes = [];
+  let seed = 42;
+  function rand() { seed = (seed * 1664525 + 1013904223) & 0xffffffff; return (seed >>> 0) / 0xffffffff; }
+  const colors = ['#f5f5f5','#58a6ff','#3fb950','#e3b341'];
+  for (let row = 0; row < 15; row++) {
+    for (let col = 0; col < 20; col++) {
+      const x = 40 + col * 18;
+      const y = 40 + row * 14;
+      const len = 6 + rand() * 10;
+      const angle = rand() * Math.PI;
+      strokes.push({
+        points: pts([[x,y],[x + Math.cos(angle)*len, y + Math.sin(angle)*len]]),
+        color: colors[Math.floor(rand()*4)],
+        width: 1 + rand() * 3,
+      });
+    }
+  }
+  return strokes;
+}
+
+function makePartialStrokes() {
+  return [
+    { points: pts([[60,90],[70,70],[80,90]]), color:'#f5f5f5', width:3 },
+    { points: pts([[64,82],[76,82]]), color:'#f5f5f5', width:2 },
+    { points: pts([[100,90],[100,70],[115,90],[115,70]]), color:'#f5f5f5', width:3 },
+    { points: pts([[130,80],[138,74],[146,80]]), color:'#f5f5f5', width:3 },
+    { points: pts([[160,70],[160,90]]), color:'#f5f5f5', width:3 },
+    { points: pts([[160,78],[172,78]]), color:'#f5f5f5', width:2 },
+    { points: pts([[172,70],[172,90]]), color:'#f5f5f5', width:3 },
+    { points: pts([[60,120],[60,140]]), color:'#f5f5f5', width:3 },
+    { points: pts([[60,130],[70,126],[80,130]]), color:'#f5f5f5', width:3 },
+    { points: pts([[90,125],[96,140]]), color:'#f5f5f5', width:3 },
+    { points: pts([[96,125],[90,140]]), color:'#f5f5f5', width:3 },
+  ];
+}
+
+const BENCHMARKS = {
+  benchmark_1: { desc: 'Handwritten multi-line equation (∫x²dx)', strokes: makeMathStrokes() },
+  benchmark_2: { desc: 'Boxes-and-arrows system sketch',           strokes: makeBoxArrowStrokes() },
+  benchmark_3: { desc: 'Handwritten natural-language question',    strokes: makeTextStrokes() },
+  benchmark_4: { desc: 'Dense canvas (300 strokes mixed)',         strokes: makeDenseStrokes() },
+  benchmark_5: { desc: 'Ambiguous / partial handwriting',          strokes: makePartialStrokes() },
+};
+
+// ─── 4 Arms ───────────────────────────────────────────────────────────────────
+const ARMS = [
+  { armId: 'arm_base', label: 'Baseline',    maxRasterPx: 1024, quality: 0.88 },
+  { armId: 'arm_opt1', label: '+Opt1 (1536px)', maxRasterPx: 1536, quality: 0.88 },
+  { armId: 'arm_opt2', label: '+Opt2 (q0.75)', maxRasterPx: 1024, quality: 0.75 },
+  { armId: 'arm_both', label: 'Opt1+Opt2',   maxRasterPx: 1536, quality: 0.75 },
+];
+
+// ─── Rasterise ────────────────────────────────────────────────────────────────
+
+function rasterise(strokes, maxPx, quality) {
+  const MARGIN = 20;
+  let minX=Infinity,minY=Infinity,maxX=-Infinity,maxY=-Infinity;
+  strokes.forEach(s => s.points.forEach(p => {
+    minX=Math.min(minX,p.x); minY=Math.min(minY,p.y);
+    maxX=Math.max(maxX,p.x); maxY=Math.max(maxY,p.y);
+  }));
+  if (!isFinite(minX)) { minX=0;minY=0;maxX=200;maxY=200; }
+  const worldW = (maxX-minX)+MARGIN*2;
+  const worldH = (maxY-minY)+MARGIN*2;
+  const aspect = worldW/worldH;
+  let rW,rH;
+  if (aspect>=1) { rW=maxPx; rH=Math.round(maxPx/aspect); }
+  else           { rH=maxPx; rW=Math.round(maxPx*aspect);  }
+
+  const canvas = document.getElementById('offscreen-canvas');
+  canvas.width=rW; canvas.height=rH;
+  const ctx = canvas.getContext('2d');
+  ctx.fillStyle='#0f1117'; ctx.fillRect(0,0,rW,rH);
+
+  const scale = Math.min(rW/worldW, rH/worldH);
+  ctx.setTransform(scale,0,0,scale,-(minX-MARGIN)*scale,-(minY-MARGIN)*scale);
+
+  strokes.forEach(s => {
+    if (!s.points||s.points.length<2) return;
+    ctx.beginPath();
+    ctx.strokeStyle=s.color||'#f5f5f5'; ctx.lineWidth=s.width||3;
+    ctx.lineCap='round'; ctx.lineJoin='round';
+    ctx.moveTo(s.points[0].x,s.points[0].y);
+    s.points.slice(1).forEach(p=>ctx.lineTo(p.x,p.y));
+    ctx.stroke();
+  });
+
+  ctx.save();
+  ctx.strokeStyle='rgba(79,156,249,0.3)'; ctx.lineWidth=2/scale;
+  ctx.setLineDash([6/scale,3/scale]);
+  ctx.strokeRect(minX-MARGIN,minY-MARGIN,worldW,worldH);
+  ctx.restore();
+
+  // Opt 2: quality param passed in (0.88 baseline, 0.75 optimized)
+  const dataUrl = canvas.toDataURL('image/webp', quality);
+  const b64=dataUrl.split(',')[1]??'';
+  return { dataUrl, bytes:Math.round(b64.length*0.75), rW, rH };
+}
+
+// ─── API call ─────────────────────────────────────────────────────────────────
+
+const SYSTEM_PROMPT = `You are an AI assistant on an infinite canvas. The user draws, writes equations, and sketches diagrams.
+You receive a cropped canvas region as an image. Read what's there and respond concisely.
+If you see an equation, solve it. If a diagram, explain it. If a question, answer it.
+If the image appears blank or dark, say so honestly.`;
+
+async function callAPI(dataUrl, maxPx, rW, rH, strokeCount, apiKey, model, signal) {
+  const base64 = dataUrl.split(',')[1];
+  const t0 = Date.now();
+
+  const resp = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+    method: 'POST',
+    headers: {
+      'Content-Type':'application/json',
+      'Authorization':`Bearer ${apiKey}`,
+      'HTTP-Referer': window.location.origin,
+      'X-Title':'Slate Opt Experiment',
+    },
+    body: JSON.stringify({
+      model,
+      max_tokens: 400,
+      stream: false,
+      messages: [
+        { role:'system', content: SYSTEM_PROMPT },
+        { role:'user', content:[
+          { type:'image_url', image_url:{ url:`data:image/webp;base64,${base64}` } },
+          { type:'text', text:`Canvas rasterised at ${rW}×${rH}px (maxRasterPx=${maxPx}). Strokes: ${strokeCount}. Respond to what you see.` },
+        ]},
+      ],
+    }),
+    signal,
+  });
+
+  const ttfb = Date.now()-t0;
+  if (!resp.ok) {
+    const txt = await resp.text().catch(()=>resp.statusText);
+    let msg=txt; try { msg=JSON.parse(txt)?.error?.message??txt; } catch{}
+    throw new Error(`OpenRouter ${resp.status}: ${msg}`);
+  }
+
+  const data = await resp.json();
+  const e2e  = Date.now()-t0;
+  const usage = data.usage??{};
+  return {
+    content:   data.choices?.[0]?.message?.content??'',
+    inputTok:  usage.prompt_tokens??null,
+    outputTok: usage.completion_tokens??null,
+    totalTok:  (usage.prompt_tokens??0)+(usage.completion_tokens??0),
+    costUsd:   usage.cost??0,
+    ttfb, e2e,
+  };
+}
+
+// ─── State ────────────────────────────────────────────────────────────────────
+
+let results   = [];
+let running   = false;
+let abortCtrl = null;
+
+// ─── UI helpers ──────────────────────────────────────────────────────────────
+
+function log(msg, cls='') {
+  const el = document.getElementById('log');
+  const d  = document.createElement('div'); d.className = cls;
+  d.textContent = `[${new Date().toISOString().slice(11,19)}] ${msg}`;
+  el.appendChild(d); el.scrollTop = el.scrollHeight;
+}
+
+function setProgress(done, total, label) {
+  document.getElementById('progress-wrap').style.display = 'block';
+  document.getElementById('progress-bar').style.width = `${Math.round(done/total*100)}%`;
+  document.getElementById('progress-label').textContent = label;
+}
+
+function setStatus(text, chipClass) {
+  document.getElementById('status-line').innerHTML =
+    `Status: <span class="status-chip ${chipClass}">${text}</span>`;
+}
+
+function setBanner(text, cls) {
+  const b = document.getElementById('phase-banner');
+  b.style.display = text ? 'block' : 'none';
+  b.className = `phase-banner ${cls}`;
+  b.textContent = text;
+}
+
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+// ─── Arm cell CSS class ───────────────────────────────────────────────────────
+function armClass(armId) {
+  if (armId === 'arm_base') return 'cell-base';
+  if (armId === 'arm_opt1') return 'cell-opt1';
+  if (armId === 'arm_opt2') return 'cell-opt2';
+  return 'cell-comb';
+}
+
+// ─── Table ────────────────────────────────────────────────────────────────────
+
+function renderTable() {
+  const tbody = document.getElementById('results-tbody');
+  if (!results.length) {
+    tbody.innerHTML = '<tr><td colspan="18" style="text-align:center;color:#6e7681;padding:24px">No runs yet.</td></tr>';
+    return;
+  }
+  const fv = v => v == null ? '—' : `${v}`;
+  tbody.innerHTML = results.map((r, i) => {
+    const sc = r.status==='success' ? 'cell-ok' : r.status==='pending' ? 'cell-mono' : r.status==='cancelled' ? 'cell-warn' : 'cell-err';
+    const arm = ARMS.find(a => a.armId === r.armId);
+    const retriedDisplay = r.status === 'pending' ? '—' : (r.wasRetried ? 'yes' : 'no');
+    return `<tr>
+      <td class="cell-mono">${i+1}</td>
+      <td>${r.benchmarkId}</td>
+      <td class="${armClass(r.armId)}">${r.armId}</td>
+      <td class="${sc}">${r.status}</td>
+      <td class="cell-warn" style="font-size:10px">${retriedDisplay}</td>
+      <td>${fv(r.e2eMs)}</td>
+      <td>${fv(r.ttfbMs)}</td>
+      <td>${fv(r.inputTok)}</td>
+      <td>${fv(r.outputTok)}</td>
+      <td>${fv(r.totalTok)}</td>
+      <td>${r.costUsd != null ? r.costUsd.toFixed(6) : '—'}</td>
+      <td>${fv(r.imageBytes)}</td>
+      <td>${fv(r.rasterW)}</td>
+      <td>${fv(r.rasterH)}</td>
+      <td>${arm ? arm.maxRasterPx : '—'}</td>
+      <td>${arm ? arm.quality : '—'}</td>
+      <td>${fv(r.strokeCount)}</td>
+      <td style="max-width:180px;overflow:hidden;text-overflow:ellipsis;color:#f85149;font-size:10px">${r.errorMessage ?? ''}</td>
+    </tr>`;
+  }).join('');
+}
+
+// ─── Summary ─────────────────────────────────────────────────────────────────
+
+function renderSummary() {
+  if (!results.length) return;
+  const fms   = v => v == null ? '—' : v < 1000 ? `${Math.round(v)}ms` : `${(v/1000).toFixed(1)}s`;
+  const ftok  = v => v == null ? '—' : Math.round(v).toString();
+  const fbytes= v => v == null ? '—' : v < 1024 ? `${Math.round(v)}B` : `${(v/1024).toFixed(1)}KB`;
+
+  // Get baseline means for delta calculation
+  const baseOk = results.filter(r => r.armId === 'arm_base' && r.status === 'success');
+  const baseMeanBytes = baseOk.length ? baseOk.reduce((a,r) => a+(r.imageBytes??0),0)/baseOk.length : null;
+  const baseMeanE2e   = baseOk.length ? baseOk.reduce((a,r) => a+(r.e2eMs??0),0)/baseOk.length : null;
+  const baseMeanTok   = baseOk.length ? baseOk.reduce((a,r) => a+(r.totalTok??0),0)/baseOk.length : null;
+
+  function delta(val, base, lowerIsBetter=true) {
+    if (val == null || base == null || base === 0) return '';
+    const pct = ((val - base) / base * 100).toFixed(1);
+    const better = lowerIsBetter ? val < base : val > base;
+    const cls = better ? 'delta-good' : (val === base ? 'delta-neu' : 'delta-bad');
+    const sign = val > base ? '+' : '';
+    return `<span class="delta ${cls}">(${sign}${pct}%)</span>`;
+  }
+
+  const cardClass = { arm_base:'s-baseline', arm_opt1:'s-opt1', arm_opt2:'s-opt2', arm_both:'s-combined' };
+
+  const armSums = ARMS.map(arm => {
+    const armRuns = results.filter(r => r.armId === arm.armId);
+    const ok      = armRuns.filter(r => r.status === 'success');
+    const fail    = armRuns.filter(r => r.status === 'failed').length;
+    const e2es    = ok.map(r => r.e2eMs).filter(v => v != null).sort((a,b)=>a-b);
+    const toks    = ok.map(r => r.totalTok).filter(v => v != null);
+    const bytes   = ok.map(r => r.imageBytes).filter(v => v != null);
+    const costs   = ok.map(r => r.costUsd).filter(v => v != null);
+    const mean = arr => arr.length ? arr.reduce((a,b)=>a+b,0)/arr.length : null;
+    const p50  = arr => arr.length ? arr[Math.floor(arr.length*0.5)] : null;
+    const retried = ok.filter(r => r.wasRetried).length;
+    const mBytes = mean(bytes);
+    const mE2e   = mean(e2es);
+    const mTok   = mean(toks);
+    return { arm, n:armRuns.length, ok:ok.length, fail, retried,
+      p50e2e:p50(e2es), meanE2e:mE2e, meanTok:mTok, meanCost:mean(costs), meanBytes:mBytes };
+  });
+
+  document.getElementById('summary-body').innerHTML = `
+    <div class="summary-grid">
+      ${armSums.map(s => `
+        <div class="summary-card ${cardClass[s.arm.armId]}">
+          <div class="summary-arm">${s.arm.armId} · ${s.arm.label}</div>
+          <div style="font-size:9px;color:#6e7681;margin-bottom:8px">${s.arm.maxRasterPx}px · q${s.arm.quality}</div>
+          <div class="metric-row"><span class="metric-key">Runs</span><span class="metric-val">${s.n}</span></div>
+          <div class="metric-row"><span class="metric-key">Success</span><span class="metric-val ${s.ok===s.n?'good':'warn'}">${s.ok} / ${s.n}</span></div>
+          <div class="metric-row"><span class="metric-key">Failures</span><span class="metric-val ${s.fail>0?'bad':'good'}">${s.fail}</span></div>
+          <div class="metric-row"><span class="metric-key">Retried</span><span class="metric-val ${s.retried>0?'warn':'good'}">${s.retried}</span></div>
+          <div class="metric-row"><span class="metric-key">p50 E2E</span><span class="metric-val">${fms(s.p50e2e)} ${delta(s.p50e2e, baseMeanE2e)}</span></div>
+          <div class="metric-row"><span class="metric-key">Mean E2E</span><span class="metric-val">${fms(s.meanE2e)} ${delta(s.meanE2e, baseMeanE2e)}</span></div>
+          <div class="metric-row"><span class="metric-key">Avg Tokens</span><span class="metric-val">${ftok(s.meanTok)} ${delta(s.meanTok, baseMeanTok)}</span></div>
+          <div class="metric-row"><span class="metric-key">Avg Cost</span><span class="metric-val">${s.meanCost!=null?'$'+s.meanCost.toFixed(6):'—'}</span></div>
+          <div class="metric-row"><span class="metric-key">Avg Img Bytes</span><span class="metric-val">${fbytes(s.meanBytes)} ${delta(s.meanBytes, baseMeanBytes)}</span></div>
+        </div>
+      `).join('')}
+    </div>`;
+}
+
+// ─── Run one cell ─────────────────────────────────────────────────────────────
+
+async function runCell(row, apiKey, model, isRetry) {
+  const arm   = ARMS.find(a => a.armId === row.armId);
+  const bench = BENCHMARKS[row.benchmarkId];
+
+  row.status     = 'running';
+  row.wasRetried = isRetry;
+  renderTable();
+
+  try {
+    const { dataUrl, bytes, rW, rH } = rasterise(bench.strokes, arm.maxRasterPx, arm.quality);
+    row.imageBytes  = bytes;
+    row.rasterW     = rW;
+    row.rasterH     = rH;
+    row.strokeCount = bench.strokes.length;
+
+    const res = await callAPI(dataUrl, arm.maxRasterPx, rW, rH, bench.strokes.length, apiKey, model, abortCtrl.signal);
+
+    row.status       = 'success';
+    row.e2eMs        = res.e2e;
+    row.ttfbMs       = res.ttfb;
+    row.inputTok     = res.inputTok;
+    row.outputTok    = res.outputTok;
+    row.totalTok     = res.totalTok;
+    row.costUsd      = res.costUsd;
+    row.responseText = res.content;
+    row.errorMessage = null;
+    log(`  ✓ ${res.e2e}ms | ${res.totalTok ?? '?'} tok | ${bytes}B img | ${arm.maxRasterPx}px q${arm.quality}`, 'log-ok');
+    return true;
+  } catch (err) {
+    const cancelled   = err.name === 'AbortError' || !running;
+    row.status        = cancelled ? 'cancelled' : 'failed';
+    row.errorMessage  = cancelled ? 'Cancelled' : err.message;
+    log(`  ✗ ${row.errorMessage}`, cancelled ? 'log-warn' : 'log-err');
+    return false;
+  }
+}
+
+// ─── Main run ─────────────────────────────────────────────────────────────────
+
+async function startRun() {
+  const apiKey            = document.getElementById('apiKey').value.trim();
+  const model             = document.getElementById('model').value.trim();
+  const retryDelay        = parseInt(document.getElementById('retryDelay').value) || 15000;
+  const interRequestDelay = parseInt(document.getElementById('interRequestDelay').value) || 3000;
+
+  if (!apiKey) { alert('Enter your OpenRouter API key first.'); return; }
+
+  running   = true;
+  abortCtrl = new AbortController();
+  document.getElementById('btn-run').disabled    = true;
+  document.getElementById('btn-cancel').disabled = false;
+  document.getElementById('log').innerHTML       = '';
+  setStatus('Running', 'chip-running');
+
+  // Build plan: 5 benchmarks × 4 arms × 1 rep = 20 cells, shuffled
+  const benchIds = Object.keys(BENCHMARKS);
+  const plan = [];
+  for (const benchmarkId of benchIds)
+    for (const arm of ARMS)
+      plan.push({
+        benchmarkId, armId: arm.armId, repIndex: 0,
+        status: 'pending', wasRetried: false,
+        e2eMs: null, ttfbMs: null, inputTok: null, outputTok: null, totalTok: null,
+        costUsd: null, imageBytes: null, rasterW: null, rasterH: null,
+        strokeCount: null, responseText: null, errorMessage: null,
+      });
+
+  // Fisher-Yates shuffle — interleaves arms so we don't do all baseline then all opt
+  for (let i = plan.length-1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i+1));
+    [plan[i], plan[j]] = [plan[j], plan[i]];
+  }
+  results = plan;
+  renderTable();
+
+  log(`Plan: ${plan.length} cells (shuffled, 4 arms × 5 benchmarks)`, 'log-info');
+  log(`Model: ${model}`, 'log-info');
+  log(`Arms: baseline(1024px,q0.88) | opt1(1536px,q0.88) | opt2(1024px,q0.75) | both(1536px,q0.75)`, 'log-info');
+  log(`Inter-request delay: ${interRequestDelay}ms | Retry delay: ${retryDelay}ms`, 'log-info');
+
+  // Phase 1: main pass
+  setBanner(`Phase 1 of 2 — Main pass: ${plan.length} cells with ${interRequestDelay}ms gap`, 'phase-main');
+  const failed = [];
+
+  for (let i = 0; i < plan.length; i++) {
+    if (!running) break;
+    if (i > 0 && interRequestDelay > 0) {
+      log(`  ⏳ ${interRequestDelay}ms delay…`);
+      await sleep(interRequestDelay);
+      if (!running) break;
+    }
+    const row   = plan[i];
+    const arm   = ARMS.find(a => a.armId === row.armId);
+    const label = `${row.benchmarkId} × ${row.armId} (${arm.maxRasterPx}px q${arm.quality})`;
+    log(`→ [${i+1}/${plan.length}] ${label}`, 'log-info');
+    setProgress(i, plan.length, `Phase 1: ${i+1}/${plan.length} — ${label}`);
+
+    const ok = await runCell(row, apiKey, model, false);
+    if (!ok && running) failed.push(row);
+    renderTable(); renderSummary();
+  }
+
+  // Phase 2: retry failures
+  if (failed.length > 0 && running) {
+    log(`\nPhase 2: ${failed.length} failed cells — retrying`, 'log-warn');
+    setBanner(`Phase 2 of 2 — Retrying ${failed.length} failed cells…`, 'phase-retry');
+    setStatus('Retrying', 'chip-retry');
+
+    for (let i = 0; i < failed.length; i++) {
+      if (!running) break;
+      const totalDelay = interRequestDelay + retryDelay;
+      log(`  ⏳ waiting ${totalDelay}ms before retry…`);
+      await sleep(totalDelay);
+      if (!running) break;
+
+      const row   = failed[i];
+      const arm   = ARMS.find(a => a.armId === row.armId);
+      const label = `${row.benchmarkId} × ${row.armId}`;
+      log(`↺ [retry ${i+1}/${failed.length}] ${label}`, 'log-warn');
+      setProgress(i, failed.length, `Phase 2 (retry): ${i+1}/${failed.length} — ${label}`);
+
+      await runCell(row, apiKey, model, true);
+      renderTable(); renderSummary();
+    }
+  }
+
+  setBanner('', '');
+  const successCount = results.filter(r => r.status === 'success').length;
+  const failCount    = results.filter(r => r.status === 'failed').length;
+  setProgress(results.length, results.length, `Done. ${successCount} succeeded, ${failCount} still failed.`);
+  setStatus(running ? 'Done' : 'Cancelled', running ? 'chip-done' : 'chip-idle');
+  log(`\nFinished. ${successCount}/20 succeeded, ${failCount} still failed after retry.`, successCount === 20 ? 'log-ok' : 'log-warn');
+
+  running = false;
+  document.getElementById('btn-run').disabled    = false;
+  document.getElementById('btn-cancel').disabled = true;
+}
+
+function cancelRun() {
+  running = false; abortCtrl?.abort();
+  setStatus('Cancelled', 'chip-idle'); setBanner('', '');
+  document.getElementById('btn-cancel').disabled = true;
+  document.getElementById('btn-run').disabled    = false;
+  log('Cancelled by user.', 'log-warn');
+}
+
+function clearResults() {
+  if (!confirm('Clear all results?')) return;
+  results = [];
+  renderTable();
+  document.getElementById('summary-body').innerHTML = '<div class="empty-state">Run the experiment to see results.</div>';
+  document.getElementById('progress-wrap').style.display = 'none';
+  document.getElementById('progress-label').textContent  = '';
+  document.getElementById('log').innerHTML = '<span style="color:#6e7681">Cleared.</span>';
+  setStatus('Idle', 'chip-idle'); setBanner('', '');
+}
+
+// ─── CSV export ───────────────────────────────────────────────────────────────
+
+function exportCSV() {
+  if (!results.length) { alert('No results to export.'); return; }
+  const headers = [
+    'row','benchmarkId','armId','repIndex','maxRasterPx','quality','strokeCount',
+    'status','wasRetried','e2eMs','ttfbMs','inputTokens','outputTokens','totalTokens',
+    'costUsd','imageBytesWebp','rasterW','rasterH','errorMessage',
+  ];
+  const rows = results.map((r, i) => {
+    const arm = ARMS.find(a => a.armId === r.armId);
+    return [
+      i+1, r.benchmarkId, r.armId, r.repIndex+1,
+      arm.maxRasterPx, arm.quality,
+      r.strokeCount ?? '',
+      r.status,
+      r.status === 'pending' ? '' : (r.wasRetried ? 'yes' : 'no'),
+      r.e2eMs ?? '', r.ttfbMs ?? '',
+      r.inputTok ?? '', r.outputTok ?? '', r.totalTok ?? '',
+      r.costUsd != null ? r.costUsd.toFixed(8) : '',
+      r.imageBytes ?? '', r.rasterW ?? '', r.rasterH ?? '',
+      `"${(r.errorMessage ?? '').replace(/"/g, '""')}"`,
+    ];
+  });
+  const csv  = [headers.join(','), ...rows.map(r => r.join(','))].join('\n');
+  const blob = new Blob([csv], { type: 'text/csv' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a'); a.href = url;
+  a.download = `slate-opt-exp-${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+</script>
+</body>
+</html>
