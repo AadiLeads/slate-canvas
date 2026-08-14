@@ -3,7 +3,8 @@
 A web-based spatial canvas where handwriting, sketches, equations, text and pasted images can be selected as context for a multimodal AI request. The response returns as an independent canvas object beside the source region.
 
 ## Quick start
-
+Clone the repository-git clone https://github.com/AadiLeads/slate-canvas.git
+   
 1. Copy `.env.example` to `.env` and add `OPENROUTER_API_KEY`.
 2. Run `npm install`.
 3. Run `npm run dev` and open the local URL printed by Vite.
