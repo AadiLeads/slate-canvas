@@ -110,7 +110,7 @@ The combined pilot is the most balanced of the tested configurations for latency
 
 ## 4. Chart
 
-![Optimization latency](optimization-latency.png)
+![Optimization latency](comparison.png)
 
 ## 5. Recommendation
 
