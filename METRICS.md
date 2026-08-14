@@ -132,7 +132,7 @@ Declared target: **p95 E2E ≤ 8 seconds**.
 
 ## 7. Example live panel
 
-![Metrics panel](metrics table.png)
+![Metrics panel](metricstable.png)
 
 The supplied panel screenshot demonstrates  per-request outcome/token information.
 
