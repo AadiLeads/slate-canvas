@@ -134,7 +134,7 @@ Declared target: **p95 E2E ≤ 8 seconds**.
 
 ![Metrics panel](metrics table.png)
 
-The supplied panel screenshot demonstrates live request count, total cost, p50/p95 E2E, DAR, WTR, CPAD, budget compliance, and per-request outcome/token information.
+The supplied panel screenshot demonstrates  per-request outcome/token information.
 
 ## 8. Experiment fields
 
