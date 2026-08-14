@@ -33,7 +33,7 @@ Never commit `.env` or a real API key.
 
 ## Architecture
 
-![Slate Canvas Architecture](images/flowchart.png)
+![Slate Canvas Architecture](flowchart.png)
 
 
 ## Context-extraction strategy
