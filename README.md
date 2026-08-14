@@ -33,26 +33,7 @@ Never commit `.env` or a real API key.
 
 ## Architecture
 
-```mermaid
-flowchart LR
-    A[Canvas / Input] --> B[Stroke & Object Model]
-    B --> C[Selection / ROI]
-    C --> D[Context Extractor]
-    D --> E[Prompt Builder]
-    E --> F[AI Request Manager]
-    F --> G[OpenRouter Provider]
-    G --> H[Streaming Response]
-    H --> I[AI Draft Object]
-    I --> J[Accept / Discard / Move / Resize]
-    J --> K[Canvas State]
-
-    F --> L[Metrics Collector]
-    L --> M[Metrics Store]
-    M --> N[Live Metrics Panel]
-    M --> O[Redacted JSONL Trace]
-
-    C --> P[Benchmark / Experiment Runner]
-    P --> L
+<img width="849" height="1254" alt="image" src="https://github.com/user-attachments/assets/dbc3baad-a978-4b2b-bb2b-ad0ddea68b82" />
 
 
 ## Context-extraction strategy
